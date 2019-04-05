@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('LeagueSpartan-Bold.eot');
+    src: url('LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('LeagueSpartan-Bold.woff2') format('woff2'),
+        url('LeagueSpartan-Bold.woff') format('woff'),
+        url('LeagueSpartan-Bold.ttf') format('truetype'),
+        url('LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('LeagueSpartan-Bold_1.eot');
+    src: url('LeagueSpartan-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('LeagueSpartan-Bold_1.woff2') format('woff2'),
+        url('LeagueSpartan-Bold_1.woff') format('woff'),
+        url('LeagueSpartan-Bold_1.ttf') format('truetype'),
+        url('LeagueSpartan-Bold_1.svg#LeagueSpartan-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('LeagueSpartan-Bold_2.eot');
+    src: url('LeagueSpartan-Bold_2.eot?#iefix') format('embedded-opentype'),
+        url('LeagueSpartan-Bold_2.woff2') format('woff2'),
+        url('LeagueSpartan-Bold_2.woff') format('woff'),
+        url('LeagueSpartan-Bold_2.ttf') format('truetype'),
+        url('LeagueSpartan-Bold_2.svg#LeagueSpartan-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

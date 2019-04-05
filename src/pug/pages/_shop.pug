@@ -1,0 +1,24 @@
+section.shop
+	.container.mb-0
+		.title-wrapper
+			.title-subtitle.wow.fadeInDown Shop
+			.title Surfboards
+	
+	.shop-slider-wrapper
+		.shop-slider-holder
+			#shopSlider.owl-carousel
+				include _shop-item-01
+				include _shop-item-02
+				include _shop-item-03
+		
+	//- .container
+	.shop-slider-controls
+		#shopSliderLeft.shop-slider-left
+			img(src="../../img/controls/boards-left.svg", alt="prev")
+		#shopSliderRight.shop-slider-right
+			img(src="../../img/controls/boards-right.svg", alt="next")
+
+
+	.container
+		.shop-link-wrapper
+			a(href="#").read-more-link Show All

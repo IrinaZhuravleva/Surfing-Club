@@ -1,0 +1,223 @@
+.shop {
+	margin-top: 200px/2;
+	position: relative;
+
+	&:before {
+		position: absolute;
+		content: "";
+		top: -330px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 984px;
+		z-index: -1;
+		background-image: url("../../img/bg/bg-lines.png"), url("../../img/bg/bg-water.jpg");
+		background-repeat: repeat-y, no-repeat;
+		background-position: center, center;
+		background-size: auto, cover;
+	}
+}
+
+.shop-slider {
+	margin-top: 50px;
+	margin-bottom: 80px;
+	display: flex;
+}
+
+.shop-link-wrapper {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.board {
+	// border: 1px solid red;
+	position: relative;
+	width: 350px;
+	height: 435px;
+	margin: 0 auto;
+	// margin-right: 95px;
+	
+	// &:last-child {
+	// 	margin-right: 95px;
+	// }
+
+	@media (min-width: 1300px) {
+		margin-right: 95px;
+		margin-top: 130px;
+			&:last-child {
+			margin-right: 95px;
+
+		}
+	}
+}
+
+.board__img-holder {
+	// border: 1px solid blue;
+
+	width: 250px;
+	height: 320px;
+	margin: 0 auto;
+	margin-top: 250px;
+	background-color: #e8e8e8;
+	position: relative;
+	@media (min-width: 1300px) {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+}
+
+.board__img {
+	
+	// left: 50%;
+	// transform: translate(-50%,0);
+	// @media (min-width: 1300px) {
+	position: absolute;
+	bottom: 10px;
+// }
+
+}
+
+.board-desc {
+	position: absolute;
+	top: 55px;
+    left: 100px;
+	// border: 1px solid blue;
+	@media (min-width: @pad) {
+    	left: 270px;
+    	top: 45px;
+    }
+    @media (min-width: @container) {
+    	left: 200px;
+    	top: 150px;
+    }
+}
+
+.board__cat {
+	color: #7a7a7a;
+	font-family: "Poppins";
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	// text-align: right;
+	// @media (min-width: @pad) {
+    	text-align: left;
+    // }
+}
+
+.board__title {
+	color: #333333;
+	font-family: "Playfair Display";
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.26px;
+	text-align: right;
+	@media (min-width: 768px) {
+    	text-align: left;
+    }
+}
+
+.board-buy {
+	width: 185px;
+	margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+ 
+    text-align: center;
+    // }
+}
+
+.board-buy__price {
+	color: #ce60a8;
+	font-family: "Poppins";
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: -0.1px;
+	// padding-left: 50px;
+	text-align: right;
+	@media (min-width: @pad) {
+    	text-align: center;
+    }
+}
+a.board-buy__link {
+	padding-top: 5px;
+	color: #333333;
+	font-family: "League Spartan", sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	z-index: 9;
+	cursor: pointer;
+	text-decoration: none;
+	// padding-left: 50px;
+	text-align: right;
+
+	@media (min-width: @pad) {
+    	text-align: center;
+    }
+}
+
+.shop-slider-wrapper {
+	height: 565px;
+	// margin-bottom: 50px;
+	position: relative;
+}
+
+.shop-slider-holder {
+	position: absolute;
+	left: 0;
+	right: 0px;
+	// @media (min-width: 1200px) {
+	// 	right: -85px;
+	// }
+}
+
+.shop-slider-controls {
+	//контейнер для позиционирования стрелок
+	position: relative;
+	// width: 320px;
+	width: 100%;
+	// width: 80%;
+	height: 1px;
+    // background-color: red;
+    margin: 0 auto;
+	@media (min-width: @container) {
+		// width: 1224px;
+		width: 100%;
+	}
+}
+
+.shop-slider-left,
+.shop-slider-right {
+	width: 40px;
+	height: 48px;
+	padding: 15px;
+	position: absolute;
+	bottom: 190px;
+	cursor: pointer;
+	z-index: 9;
+	@media (min-width: @container) {
+		bottom: 60px;
+	}
+}
+
+.shop-slider-left {
+	left: 50px;
+	// @media (min-width: @container) {
+	// 	left: -100px;
+	// }
+}
+
+.shop-slider-right {
+	right: 50px;
+	// left: 267px;
+	// @media (min-width: @container) {
+	// 	left: 1300px;
+	// }
+}
